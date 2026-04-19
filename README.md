@@ -41,6 +41,7 @@ Outputs (CSV files + Plots + Insights)
 
 
 ## 📁 Project Structure
+```bash
 ├── data/                   # Raw CSV files  
 ├── Images/                 # Saved plots  
 ├── Final_Analysis_Files/   # Final processed CSV outputs  
@@ -53,7 +54,7 @@ Outputs (CSV files + Plots + Insights)
 ├── format_values.py        # Number formatting utility  
 ├── inventory.db            # SQLite database   
 └── README.md               # Documentation 
-
+```
 ## :gear: Tech Stack
 - Python
 - Pandas, NumPy
