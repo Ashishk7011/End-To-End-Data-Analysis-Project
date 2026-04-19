@@ -1,0 +1,72 @@
+[ 2026-04-18 14:07:13,391 ] 508 __main__ - INFO - Vendor analysis started.
+[ 2026-04-18 14:07:13,536 ] 39 __main__ - INFO - Vendor sales summary data loaded and saved as Final_Analysis_Files/vendor_sales_summary.csv
+[ 2026-04-18 14:07:13,536 ] 510 __main__ - INFO - Vendor sales data loaded successfully.
+[ 2026-04-18 14:07:13,649 ] 53 __main__ - INFO - Quality data extracted and saved as Final_Analysis_Files/vendor_sales_quality_data.csv
+[ 2026-04-18 14:07:15,772 ] 73 __main__ - INFO - Numerical histograms with KDE saved as Images/plot_numerical_hist_distributions.png
+[ 2026-04-18 14:07:19,157 ] 94 __main__ - INFO - Numerical boxplots saved as Images/plot_numericals_boxplots.png
+[ 2026-04-18 14:07:19,693 ] 109 __main__ - INFO - Categorical count plots saved as Images/plot_categorical_counts.png
+[ 2026-04-18 14:07:22,334 ] 127 __main__ - INFO - Correlation heatmap saved as Images/plot_correlation_heatmap.png
+[ 2026-04-18 14:07:22,396 ] 163 __main__ - INFO - Brand performance data saved as Final_Analysis_Files/brand_performance.csv
+[ 2026-04-18 14:07:23,681 ] 190 __main__ - INFO - Brand performance scatter plot saved as Images/brand_performance_scatter.png
+[ 2026-04-18 14:07:25,102 ] 233 __main__ - INFO - Top vendors and brands bar charts saved as Images/top_vendors_brands.png
+[ 2026-04-18 14:07:25,110 ] 256 __main__ - INFO - Vendor performance data aggregated.
+[ 2026-04-18 14:07:25,111 ] 258 __main__ - INFO - Vendor performance data saved as Final_Analysis_Files/vendor_performance.csv
+[ 2026-04-18 14:07:25,438 ] 306 __main__ - INFO - Top vendors Pareto chart saved as Images/top_vendors_pareto.png
+[ 2026-04-18 14:07:26,476 ] 310 __main__ - INFO - 
+Top 10 vendors performance data:
+                VendorName TotalPurchaseDollars GrossProfit TotalSalesDollars  PurchaseContribution%  cumulative_contribution%
+  DIAGEO NORTH AMERICA INC               50.10M      17.89M            67.99M                  16.30                     16.30
+     MARTIGNETTI COMPANIES               25.50M      13.83M            39.33M                   8.30                     24.60
+         PERNOD RICARD USA               23.85M       8.21M            32.06M                   7.76                     32.36
+   JIM BEAM BRANDS COMPANY               23.49M       7.93M            31.42M                   7.64                     40.00
+           BACARDI USA INC               17.43M       7.42M            24.85M                   5.67                     45.67
+  CONSTELLATION BRANDS INC               15.27M       8.95M            24.22M                   4.97                     50.64
+         BROWN-FORMAN CORP               13.24M       5.01M            18.25M                   4.31                     54.95
+        E & J GALLO WINERY               12.07M       6.33M            18.40M                   3.93                     58.88
+ULTRA BEVERAGE COMPANY LLP               11.17M       5.34M            16.50M                   3.63                     62.51
+            M S WALKER INC                9.76M       4.94M            14.71M                   3.18                     65.69
+
+
+[ 2026-04-18 14:07:27,639 ] 348 __main__ - INFO - Top vendors donut chart saved as Images/top_vendors_donut_chart.png
+[ 2026-04-18 14:07:27,642 ] 357 __main__ - INFO - 
+Vendors with low stock turnover:
+                             StockTurnover
+VendorName                                
+ALISA CARR BEVERAGES              0.615385
+HIGHLAND WINE MERCHANTS LLC       0.708333
+PARK STREET IMPORTS LLC           0.751306
+Circa Wines                       0.755676
+Dunn Wine Brokers                 0.766022
+CENTEUR IMPORTS LLC               0.773953
+SMOKY QUARTZ DISTILLERY LLC       0.783835
+TAMWORTH DISTILLING               0.797078
+THE IMPORTED GRAPE LLC            0.807569
+WALPOLE MTN VIEW WINERY           0.820548
+
+
+[ 2026-04-18 14:07:27,643 ] 359 __main__ - INFO - Low stock turnover vendors saved as Final_Analysis_Files/low_stock_turnover_vendors.csv
+[ 2026-04-18 14:07:27,790 ] 376 __main__ - INFO - Unit price by order size boxplot saved as Images/unit_price_by_order_size.png
+[ 2026-04-18 14:07:28,822 ] 407 __main__ - INFO - 
+Top 10 vendors with the most capital locked in unsold stock:
+              VendorName UnsoldInventoryValue
+DIAGEO NORTH AMERICA INC              722.21K
+ JIM BEAM BRANDS COMPANY              554.67K
+       PERNOD RICARD USA              470.63K
+WILLIAM GRANT & SONS INC              401.96K
+      E & J GALLO WINERY              228.28K
+          SAZERAC CO INC              198.44K
+       BROWN-FORMAN CORP              177.73K
+CONSTELLATION BRANDS INC              133.62K
+   MOET HENNESSY USA INC              126.48K
+  REMY COINTREAU USA INC              118.60K
+
+
+[ 2026-04-18 14:07:28,823 ] 409 __main__ - INFO - Unsold inventory value per vendor saved as Final_Analysis_Files/unsold_inventory_value_per_vendor.csv
+[ 2026-04-18 14:07:28,831 ] 426 __main__ - INFO - Confidence interval calculated: Mean=31.17, Margin of Error=0.44
+[ 2026-04-18 14:07:28,831 ] 426 __main__ - INFO - Confidence interval calculated: Mean=41.55, Margin of Error=1.07
+[ 2026-04-18 14:07:28,831 ] 448 __main__ - INFO - Top Vendors 95% CI: (30.74, 31.61), Mean: 31.17
+[ 2026-04-18 14:07:28,831 ] 449 __main__ - INFO - Low Vendors 95% CI: (40.48, 42.62), Mean: 41.55
+[ 2026-04-18 14:07:30,099 ] 472 __main__ - INFO - Confidence interval comparison plot saved as Images/confidence_interval_comparison.png
+[ 2026-04-18 14:07:30,103 ] 486 __main__ - INFO - T-Statistic: -17.6440, P-Value: 0.0000
+[ 2026-04-18 14:07:30,103 ] 488 __main__ - INFO - Reject H0: There is a significant difference in profit margins between top and low-performing vendors.
+[ 2026-04-18 14:07:30,104 ] 499 __main__ - INFO - Database connection closed.

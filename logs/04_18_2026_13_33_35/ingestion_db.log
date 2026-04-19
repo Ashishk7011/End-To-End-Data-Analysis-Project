@@ -1,0 +1,20 @@
+pyth[ 2026-04-18 13:33:36,538 ] 25 __main__ - INFO - ingesting begin_inventory.csv in Database
+[ 2026-04-18 13:33:36,539 ] 13 __main__ - INFO - Ingesting begin_inventory table into Database
+[ 2026-04-18 13:33:38,128 ] 17 __main__ - INFO - begin_inventory table ingested successfully in Database
+[ 2026-04-18 13:33:39,188 ] 25 __main__ - INFO - ingesting end_inventory.csv in Database
+[ 2026-04-18 13:33:39,188 ] 13 __main__ - INFO - Ingesting end_inventory table into Database
+[ 2026-04-18 13:33:41,495 ] 17 __main__ - INFO - end_inventory table ingested successfully in Database
+[ 2026-04-18 13:34:07,555 ] 25 __main__ - INFO - ingesting purchases.csv in Database
+[ 2026-04-18 13:34:07,555 ] 13 __main__ - INFO - Ingesting purchases table into Database
+[ 2026-04-18 13:34:41,622 ] 17 __main__ - INFO - purchases table ingested successfully in Database
+[ 2026-04-18 13:34:42,041 ] 25 __main__ - INFO - ingesting purchase_prices.csv in Database
+[ 2026-04-18 13:34:42,042 ] 13 __main__ - INFO - Ingesting purchase_prices table into Database
+[ 2026-04-18 13:34:42,159 ] 17 __main__ - INFO - purchase_prices table ingested successfully in Database
+[ 2026-04-18 13:40:32,376 ] 25 __main__ - INFO - ingesting sales.csv in Database
+[ 2026-04-18 13:40:32,393 ] 13 __main__ - INFO - Ingesting sales table into Database
+[ 2026-04-18 13:46:45,115 ] 17 __main__ - INFO - sales table ingested successfully in Database
+[ 2026-04-18 13:46:50,552 ] 25 __main__ - INFO - ingesting vendor_invoice.csv in Database
+[ 2026-04-18 13:46:50,552 ] 13 __main__ - INFO - Ingesting vendor_invoice table into Database
+[ 2026-04-18 13:46:50,687 ] 17 __main__ - INFO - vendor_invoice table ingested successfully in Database
+[ 2026-04-18 13:46:50,687 ] 29 __main__ - INFO - ----------ingestion complete----------
+[ 2026-04-18 13:46:50,688 ] 30 __main__ - INFO - Total time taken in 13.251292796929677 minutes.

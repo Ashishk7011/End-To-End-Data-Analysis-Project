@@ -1,0 +1,2 @@
+[ 2026-04-18 14:07:06,551 ] 13 ingestion_db - INFO - Ingesting vendor_sales_summary table into Database
+[ 2026-04-18 14:07:06,688 ] 17 ingestion_db - INFO - vendor_sales_summary table ingested successfully in Database
