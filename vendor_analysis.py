@@ -114,6 +114,7 @@ class VendorAnalysis:
     def plot_correlation_heatmap(self, df=None):
         """Plot a correlation heatmap of all numerical features."""
         df = df if df is not None else self.quality_df
+        df = df.drop(['VendorNumber', 'Brand'], axis=1)
         numerical_cols = df.select_dtypes(exclude=['object']).columns
 
         fig,ax = plt.subplots(figsize=(12, 10))

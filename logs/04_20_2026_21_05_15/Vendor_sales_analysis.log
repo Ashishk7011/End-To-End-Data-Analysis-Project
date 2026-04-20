@@ -1,0 +1,7 @@
+[ 2026-04-20 21:05:15,530 ] 509 __main__ - INFO - Vendor analysis started.
+[ 2026-04-20 21:05:15,685 ] 39 __main__ - INFO - Vendor sales summary data loaded and saved as Final_Analysis_Files/vendor_sales_summary.csv
+[ 2026-04-20 21:05:15,685 ] 511 __main__ - INFO - Vendor sales data loaded successfully.
+[ 2026-04-20 21:05:15,797 ] 53 __main__ - INFO - Quality data extracted and saved as Final_Analysis_Files/vendor_sales_quality_data.csv
+[ 2026-04-20 21:05:17,657 ] 73 __main__ - INFO - Numerical histograms with KDE saved as Images/plot_numerical_hist_distributions.png
+[ 2026-04-20 21:05:20,929 ] 94 __main__ - INFO - Numerical boxplots saved as Images/plot_numericals_boxplots.png
+[ 2026-04-20 21:05:21,224 ] 109 __main__ - INFO - Categorical count plots saved as Images/plot_categorical_counts.png
